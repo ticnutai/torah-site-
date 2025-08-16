@@ -1,0 +1,40 @@
+{
+  "table_name": "tbl_Perush",
+  "columns": [
+    {
+      "cid": 0,
+      "name": "ID",
+      "type": "INTEGER",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 1
+    },
+    {
+      "cid": 1,
+      "name": "QuestionID",
+      "type": "INTEGER",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 2,
+      "name": "Mefaresh",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 3,
+      "name": "Perush",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    }
+  ],
+  "record_count": 0,
+  "exported": "2025-08-16T22:06:32.579604",
+  "data": []
+}

@@ -1,0 +1,381 @@
+{
+  "table_name": "tbl_Pasuk",
+  "columns": [
+    {
+      "cid": 0,
+      "name": "ID",
+      "type": "INTEGER",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 1
+    },
+    {
+      "cid": 1,
+      "name": "PasukName",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    }
+  ],
+  "record_count": 89,
+  "exported": "2025-08-16T22:06:32.233094",
+  "data": [
+    {
+      "ID": 1,
+      "PasukName": "א"
+    },
+    {
+      "ID": 2,
+      "PasukName": "ב"
+    },
+    {
+      "ID": 3,
+      "PasukName": "ג"
+    },
+    {
+      "ID": 4,
+      "PasukName": "ד"
+    },
+    {
+      "ID": 5,
+      "PasukName": "ה"
+    },
+    {
+      "ID": 6,
+      "PasukName": "ו"
+    },
+    {
+      "ID": 7,
+      "PasukName": "ז"
+    },
+    {
+      "ID": 8,
+      "PasukName": "ח"
+    },
+    {
+      "ID": 9,
+      "PasukName": "ט"
+    },
+    {
+      "ID": 10,
+      "PasukName": "י"
+    },
+    {
+      "ID": 11,
+      "PasukName": "יא"
+    },
+    {
+      "ID": 12,
+      "PasukName": "יב"
+    },
+    {
+      "ID": 13,
+      "PasukName": "יג"
+    },
+    {
+      "ID": 14,
+      "PasukName": "יד"
+    },
+    {
+      "ID": 15,
+      "PasukName": "טו"
+    },
+    {
+      "ID": 16,
+      "PasukName": "טז"
+    },
+    {
+      "ID": 17,
+      "PasukName": "יז"
+    },
+    {
+      "ID": 18,
+      "PasukName": "יח"
+    },
+    {
+      "ID": 19,
+      "PasukName": "יט"
+    },
+    {
+      "ID": 20,
+      "PasukName": "כ"
+    },
+    {
+      "ID": 21,
+      "PasukName": "כא"
+    },
+    {
+      "ID": 22,
+      "PasukName": "כב"
+    },
+    {
+      "ID": 23,
+      "PasukName": "כג"
+    },
+    {
+      "ID": 24,
+      "PasukName": "כד"
+    },
+    {
+      "ID": 25,
+      "PasukName": "כה"
+    },
+    {
+      "ID": 26,
+      "PasukName": "כו"
+    },
+    {
+      "ID": 27,
+      "PasukName": "כז"
+    },
+    {
+      "ID": 28,
+      "PasukName": "כח"
+    },
+    {
+      "ID": 29,
+      "PasukName": "כט"
+    },
+    {
+      "ID": 30,
+      "PasukName": "ל"
+    },
+    {
+      "ID": 31,
+      "PasukName": "לא"
+    },
+    {
+      "ID": 32,
+      "PasukName": "לב"
+    },
+    {
+      "ID": 33,
+      "PasukName": "לג"
+    },
+    {
+      "ID": 34,
+      "PasukName": "לד"
+    },
+    {
+      "ID": 35,
+      "PasukName": "לה"
+    },
+    {
+      "ID": 36,
+      "PasukName": "לו"
+    },
+    {
+      "ID": 37,
+      "PasukName": "לז"
+    },
+    {
+      "ID": 38,
+      "PasukName": "לח"
+    },
+    {
+      "ID": 39,
+      "PasukName": "לט"
+    },
+    {
+      "ID": 40,
+      "PasukName": "מ"
+    },
+    {
+      "ID": 41,
+      "PasukName": "מא"
+    },
+    {
+      "ID": 42,
+      "PasukName": "מב"
+    },
+    {
+      "ID": 43,
+      "PasukName": "מג"
+    },
+    {
+      "ID": 44,
+      "PasukName": "מד"
+    },
+    {
+      "ID": 45,
+      "PasukName": "מה"
+    },
+    {
+      "ID": 46,
+      "PasukName": "מו"
+    },
+    {
+      "ID": 47,
+      "PasukName": "מז"
+    },
+    {
+      "ID": 48,
+      "PasukName": "מח"
+    },
+    {
+      "ID": 49,
+      "PasukName": "מט"
+    },
+    {
+      "ID": 50,
+      "PasukName": "נ"
+    },
+    {
+      "ID": 51,
+      "PasukName": "נא"
+    },
+    {
+      "ID": 52,
+      "PasukName": "נב"
+    },
+    {
+      "ID": 53,
+      "PasukName": "נג"
+    },
+    {
+      "ID": 54,
+      "PasukName": "נד"
+    },
+    {
+      "ID": 55,
+      "PasukName": "נה"
+    },
+    {
+      "ID": 56,
+      "PasukName": "נו"
+    },
+    {
+      "ID": 57,
+      "PasukName": "נז"
+    },
+    {
+      "ID": 58,
+      "PasukName": "נח"
+    },
+    {
+      "ID": 59,
+      "PasukName": "נט"
+    },
+    {
+      "ID": 60,
+      "PasukName": "ס"
+    },
+    {
+      "ID": 61,
+      "PasukName": "סא"
+    },
+    {
+      "ID": 62,
+      "PasukName": "סב"
+    },
+    {
+      "ID": 63,
+      "PasukName": "סג"
+    },
+    {
+      "ID": 64,
+      "PasukName": "סד"
+    },
+    {
+      "ID": 65,
+      "PasukName": "סה"
+    },
+    {
+      "ID": 66,
+      "PasukName": "סו"
+    },
+    {
+      "ID": 67,
+      "PasukName": "סז"
+    },
+    {
+      "ID": 68,
+      "PasukName": "סח"
+    },
+    {
+      "ID": 69,
+      "PasukName": "סט"
+    },
+    {
+      "ID": 70,
+      "PasukName": "ע"
+    },
+    {
+      "ID": 71,
+      "PasukName": "עא"
+    },
+    {
+      "ID": 72,
+      "PasukName": "עב"
+    },
+    {
+      "ID": 73,
+      "PasukName": "עג"
+    },
+    {
+      "ID": 74,
+      "PasukName": "עד"
+    },
+    {
+      "ID": 75,
+      "PasukName": "עה"
+    },
+    {
+      "ID": 76,
+      "PasukName": "עו"
+    },
+    {
+      "ID": 77,
+      "PasukName": "עז"
+    },
+    {
+      "ID": 78,
+      "PasukName": "עח"
+    },
+    {
+      "ID": 79,
+      "PasukName": "עט"
+    },
+    {
+      "ID": 80,
+      "PasukName": "פ"
+    },
+    {
+      "ID": 81,
+      "PasukName": "פא"
+    },
+    {
+      "ID": 82,
+      "PasukName": "פב"
+    },
+    {
+      "ID": 83,
+      "PasukName": "פג"
+    },
+    {
+      "ID": 84,
+      "PasukName": "פד"
+    },
+    {
+      "ID": 85,
+      "PasukName": "פה"
+    },
+    {
+      "ID": 86,
+      "PasukName": "פו"
+    },
+    {
+      "ID": 87,
+      "PasukName": "פז"
+    },
+    {
+      "ID": 88,
+      "PasukName": "פח"
+    },
+    {
+      "ID": 89,
+      "PasukName": "פט"
+    }
+  ]
+}

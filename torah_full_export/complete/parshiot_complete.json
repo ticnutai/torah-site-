@@ -1,0 +1,1094 @@
+{
+  "export_info": {
+    "created": "2025-08-16T22:07:02.191689",
+    "type": "parshiot_complete"
+  },
+  "parshiot_main_table": [
+    {
+      "ID": 1,
+      "SeferID": 1,
+      "ParshaName": "בראשית",
+      "StartPerek": 1,
+      "StartPasuk": 1,
+      "EndPerek": 6,
+      "EndPasuk": 8,
+      "SeferName": "בראשית"
+    },
+    {
+      "ID": 2,
+      "SeferID": 1,
+      "ParshaName": "נח",
+      "StartPerek": 6,
+      "StartPasuk": 9,
+      "EndPerek": 11,
+      "EndPasuk": 32,
+      "SeferName": "בראשית"
+    },
+    {
+      "ID": 3,
+      "SeferID": 1,
+      "ParshaName": "לך לך",
+      "StartPerek": 12,
+      "StartPasuk": 1,
+      "EndPerek": 17,
+      "EndPasuk": 27,
+      "SeferName": "בראשית"
+    },
+    {
+      "ID": 4,
+      "SeferID": 1,
+      "ParshaName": "וירא",
+      "StartPerek": 18,
+      "StartPasuk": 1,
+      "EndPerek": 22,
+      "EndPasuk": 24,
+      "SeferName": "בראשית"
+    },
+    {
+      "ID": 5,
+      "SeferID": 1,
+      "ParshaName": "חיי שרה",
+      "StartPerek": 23,
+      "StartPasuk": 1,
+      "EndPerek": 25,
+      "EndPasuk": 18,
+      "SeferName": "בראשית"
+    },
+    {
+      "ID": 6,
+      "SeferID": 1,
+      "ParshaName": "תולדות",
+      "StartPerek": 25,
+      "StartPasuk": 19,
+      "EndPerek": 28,
+      "EndPasuk": 9,
+      "SeferName": "בראשית"
+    },
+    {
+      "ID": 7,
+      "SeferID": 1,
+      "ParshaName": "ויצא",
+      "StartPerek": 28,
+      "StartPasuk": 10,
+      "EndPerek": 32,
+      "EndPasuk": 3,
+      "SeferName": "בראשית"
+    },
+    {
+      "ID": 8,
+      "SeferID": 1,
+      "ParshaName": "וישלח",
+      "StartPerek": 32,
+      "StartPasuk": 4,
+      "EndPerek": 36,
+      "EndPasuk": 43,
+      "SeferName": "בראשית"
+    },
+    {
+      "ID": 9,
+      "SeferID": 1,
+      "ParshaName": "וישב",
+      "StartPerek": 37,
+      "StartPasuk": 1,
+      "EndPerek": 40,
+      "EndPasuk": 23,
+      "SeferName": "בראשית"
+    },
+    {
+      "ID": 10,
+      "SeferID": 1,
+      "ParshaName": "מקץ",
+      "StartPerek": 41,
+      "StartPasuk": 1,
+      "EndPerek": 44,
+      "EndPasuk": 17,
+      "SeferName": "בראשית"
+    },
+    {
+      "ID": 11,
+      "SeferID": 1,
+      "ParshaName": "ויגש",
+      "StartPerek": 44,
+      "StartPasuk": 18,
+      "EndPerek": 47,
+      "EndPasuk": 27,
+      "SeferName": "בראשית"
+    },
+    {
+      "ID": 12,
+      "SeferID": 1,
+      "ParshaName": "ויחי",
+      "StartPerek": 47,
+      "StartPasuk": 28,
+      "EndPerek": 50,
+      "EndPasuk": 26,
+      "SeferName": "בראשית"
+    },
+    {
+      "ID": 13,
+      "SeferID": 2,
+      "ParshaName": "שמות",
+      "StartPerek": 1,
+      "StartPasuk": 1,
+      "EndPerek": 6,
+      "EndPasuk": 1,
+      "SeferName": "שמות"
+    },
+    {
+      "ID": 14,
+      "SeferID": 2,
+      "ParshaName": "וארא",
+      "StartPerek": 6,
+      "StartPasuk": 2,
+      "EndPerek": 9,
+      "EndPasuk": 35,
+      "SeferName": "שמות"
+    },
+    {
+      "ID": 15,
+      "SeferID": 2,
+      "ParshaName": "בא",
+      "StartPerek": 10,
+      "StartPasuk": 1,
+      "EndPerek": 13,
+      "EndPasuk": 16,
+      "SeferName": "שמות"
+    },
+    {
+      "ID": 16,
+      "SeferID": 2,
+      "ParshaName": "בשלח",
+      "StartPerek": 13,
+      "StartPasuk": 17,
+      "EndPerek": 17,
+      "EndPasuk": 16,
+      "SeferName": "שמות"
+    },
+    {
+      "ID": 17,
+      "SeferID": 2,
+      "ParshaName": "יתרו",
+      "StartPerek": 18,
+      "StartPasuk": 1,
+      "EndPerek": 20,
+      "EndPasuk": 23,
+      "SeferName": "שמות"
+    },
+    {
+      "ID": 18,
+      "SeferID": 2,
+      "ParshaName": "משפטים",
+      "StartPerek": 21,
+      "StartPasuk": 1,
+      "EndPerek": 24,
+      "EndPasuk": 18,
+      "SeferName": "שמות"
+    },
+    {
+      "ID": 19,
+      "SeferID": 2,
+      "ParshaName": "תרומה",
+      "StartPerek": 25,
+      "StartPasuk": 1,
+      "EndPerek": 27,
+      "EndPasuk": 19,
+      "SeferName": "שמות"
+    },
+    {
+      "ID": 20,
+      "SeferID": 2,
+      "ParshaName": "תצוה",
+      "StartPerek": 27,
+      "StartPasuk": 20,
+      "EndPerek": 30,
+      "EndPasuk": 10,
+      "SeferName": "שמות"
+    },
+    {
+      "ID": 21,
+      "SeferID": 2,
+      "ParshaName": "כי תשא",
+      "StartPerek": 30,
+      "StartPasuk": 11,
+      "EndPerek": 34,
+      "EndPasuk": 35,
+      "SeferName": "שמות"
+    },
+    {
+      "ID": 22,
+      "SeferID": 2,
+      "ParshaName": "ויקהל",
+      "StartPerek": 35,
+      "StartPasuk": 1,
+      "EndPerek": 38,
+      "EndPasuk": 20,
+      "SeferName": "שמות"
+    },
+    {
+      "ID": 23,
+      "SeferID": 2,
+      "ParshaName": "פקודי",
+      "StartPerek": 38,
+      "StartPasuk": 21,
+      "EndPerek": 40,
+      "EndPasuk": 38,
+      "SeferName": "שמות"
+    },
+    {
+      "ID": 24,
+      "SeferID": 3,
+      "ParshaName": "ויקרא",
+      "StartPerek": 1,
+      "StartPasuk": 1,
+      "EndPerek": 5,
+      "EndPasuk": 26,
+      "SeferName": "ויקרא"
+    },
+    {
+      "ID": 25,
+      "SeferID": 3,
+      "ParshaName": "צו",
+      "StartPerek": 6,
+      "StartPasuk": 1,
+      "EndPerek": 8,
+      "EndPasuk": 36,
+      "SeferName": "ויקרא"
+    },
+    {
+      "ID": 26,
+      "SeferID": 3,
+      "ParshaName": "שמיני",
+      "StartPerek": 9,
+      "StartPasuk": 1,
+      "EndPerek": 11,
+      "EndPasuk": 47,
+      "SeferName": "ויקרא"
+    },
+    {
+      "ID": 27,
+      "SeferID": 3,
+      "ParshaName": "תזריע",
+      "StartPerek": 12,
+      "StartPasuk": 1,
+      "EndPerek": 13,
+      "EndPasuk": 59,
+      "SeferName": "ויקרא"
+    },
+    {
+      "ID": 28,
+      "SeferID": 3,
+      "ParshaName": "מצורע",
+      "StartPerek": 14,
+      "StartPasuk": 1,
+      "EndPerek": 15,
+      "EndPasuk": 33,
+      "SeferName": "ויקרא"
+    },
+    {
+      "ID": 29,
+      "SeferID": 3,
+      "ParshaName": "אחרי מות",
+      "StartPerek": 16,
+      "StartPasuk": 1,
+      "EndPerek": 18,
+      "EndPasuk": 30,
+      "SeferName": "ויקרא"
+    },
+    {
+      "ID": 30,
+      "SeferID": 3,
+      "ParshaName": "קדושים",
+      "StartPerek": 19,
+      "StartPasuk": 1,
+      "EndPerek": 20,
+      "EndPasuk": 27,
+      "SeferName": "ויקרא"
+    },
+    {
+      "ID": 31,
+      "SeferID": 3,
+      "ParshaName": "אמור",
+      "StartPerek": 21,
+      "StartPasuk": 1,
+      "EndPerek": 24,
+      "EndPasuk": 23,
+      "SeferName": "ויקרא"
+    },
+    {
+      "ID": 32,
+      "SeferID": 3,
+      "ParshaName": "בהר",
+      "StartPerek": 25,
+      "StartPasuk": 1,
+      "EndPerek": 26,
+      "EndPasuk": 2,
+      "SeferName": "ויקרא"
+    },
+    {
+      "ID": 33,
+      "SeferID": 3,
+      "ParshaName": "בחקתי",
+      "StartPerek": 26,
+      "StartPasuk": 3,
+      "EndPerek": 27,
+      "EndPasuk": 34,
+      "SeferName": "ויקרא"
+    },
+    {
+      "ID": 34,
+      "SeferID": 4,
+      "ParshaName": "במדבר",
+      "StartPerek": 1,
+      "StartPasuk": 1,
+      "EndPerek": 4,
+      "EndPasuk": 20,
+      "SeferName": "במדבר"
+    },
+    {
+      "ID": 35,
+      "SeferID": 4,
+      "ParshaName": "נשא",
+      "StartPerek": 4,
+      "StartPasuk": 21,
+      "EndPerek": 7,
+      "EndPasuk": 89,
+      "SeferName": "במדבר"
+    },
+    {
+      "ID": 36,
+      "SeferID": 4,
+      "ParshaName": "בהעלתך",
+      "StartPerek": 8,
+      "StartPasuk": 1,
+      "EndPerek": 12,
+      "EndPasuk": 16,
+      "SeferName": "במדבר"
+    },
+    {
+      "ID": 37,
+      "SeferID": 4,
+      "ParshaName": "שלח לך",
+      "StartPerek": 13,
+      "StartPasuk": 1,
+      "EndPerek": 15,
+      "EndPasuk": 41,
+      "SeferName": "במדבר"
+    },
+    {
+      "ID": 38,
+      "SeferID": 4,
+      "ParshaName": "קרח",
+      "StartPerek": 16,
+      "StartPasuk": 1,
+      "EndPerek": 18,
+      "EndPasuk": 32,
+      "SeferName": "במדבר"
+    },
+    {
+      "ID": 39,
+      "SeferID": 4,
+      "ParshaName": "חקת",
+      "StartPerek": 19,
+      "StartPasuk": 1,
+      "EndPerek": 22,
+      "EndPasuk": 1,
+      "SeferName": "במדבר"
+    },
+    {
+      "ID": 40,
+      "SeferID": 4,
+      "ParshaName": "בלק",
+      "StartPerek": 22,
+      "StartPasuk": 2,
+      "EndPerek": 25,
+      "EndPasuk": 9,
+      "SeferName": "במדבר"
+    },
+    {
+      "ID": 41,
+      "SeferID": 4,
+      "ParshaName": "פנחס",
+      "StartPerek": 25,
+      "StartPasuk": 10,
+      "EndPerek": 30,
+      "EndPasuk": 1,
+      "SeferName": "במדבר"
+    },
+    {
+      "ID": 42,
+      "SeferID": 4,
+      "ParshaName": "מטות",
+      "StartPerek": 30,
+      "StartPasuk": 2,
+      "EndPerek": 32,
+      "EndPasuk": 42,
+      "SeferName": "במדבר"
+    },
+    {
+      "ID": 43,
+      "SeferID": 4,
+      "ParshaName": "מסעי",
+      "StartPerek": 33,
+      "StartPasuk": 1,
+      "EndPerek": 36,
+      "EndPasuk": 13,
+      "SeferName": "במדבר"
+    },
+    {
+      "ID": 44,
+      "SeferID": 5,
+      "ParshaName": "דברים",
+      "StartPerek": 1,
+      "StartPasuk": 1,
+      "EndPerek": 3,
+      "EndPasuk": 22,
+      "SeferName": "דברים"
+    },
+    {
+      "ID": 45,
+      "SeferID": 5,
+      "ParshaName": "ואתחנן",
+      "StartPerek": 3,
+      "StartPasuk": 23,
+      "EndPerek": 7,
+      "EndPasuk": 11,
+      "SeferName": "דברים"
+    },
+    {
+      "ID": 46,
+      "SeferID": 5,
+      "ParshaName": "עקב",
+      "StartPerek": 7,
+      "StartPasuk": 12,
+      "EndPerek": 11,
+      "EndPasuk": 25,
+      "SeferName": "דברים"
+    },
+    {
+      "ID": 47,
+      "SeferID": 5,
+      "ParshaName": "ראה",
+      "StartPerek": 11,
+      "StartPasuk": 26,
+      "EndPerek": 16,
+      "EndPasuk": 17,
+      "SeferName": "דברים"
+    },
+    {
+      "ID": 48,
+      "SeferID": 5,
+      "ParshaName": "שופטים",
+      "StartPerek": 16,
+      "StartPasuk": 18,
+      "EndPerek": 21,
+      "EndPasuk": 9,
+      "SeferName": "דברים"
+    },
+    {
+      "ID": 49,
+      "SeferID": 5,
+      "ParshaName": "כי תצא",
+      "StartPerek": 21,
+      "StartPasuk": 10,
+      "EndPerek": 25,
+      "EndPasuk": 19,
+      "SeferName": "דברים"
+    },
+    {
+      "ID": 50,
+      "SeferID": 5,
+      "ParshaName": "כי תבוא",
+      "StartPerek": 26,
+      "StartPasuk": 1,
+      "EndPerek": 29,
+      "EndPasuk": 8,
+      "SeferName": "דברים"
+    },
+    {
+      "ID": 51,
+      "SeferID": 5,
+      "ParshaName": "נצבים",
+      "StartPerek": 29,
+      "StartPasuk": 9,
+      "EndPerek": 30,
+      "EndPasuk": 20,
+      "SeferName": "דברים"
+    },
+    {
+      "ID": 52,
+      "SeferID": 5,
+      "ParshaName": "וילך",
+      "StartPerek": 31,
+      "StartPasuk": 1,
+      "EndPerek": 31,
+      "EndPasuk": 30,
+      "SeferName": "דברים"
+    },
+    {
+      "ID": 53,
+      "SeferID": 5,
+      "ParshaName": "האזינו",
+      "StartPerek": 32,
+      "StartPasuk": 1,
+      "EndPerek": 32,
+      "EndPasuk": 52,
+      "SeferName": "דברים"
+    },
+    {
+      "ID": 54,
+      "SeferID": 5,
+      "ParshaName": "וזאת הברכה",
+      "StartPerek": 33,
+      "StartPasuk": 1,
+      "EndPerek": 34,
+      "EndPasuk": 12,
+      "SeferName": "דברים"
+    }
+  ],
+  "parshiot_alternative_table": [
+    {
+      "ID": 1,
+      "SeferID": 1,
+      "ParshaName": "בראשית",
+      "StartPerek": 1,
+      "StartPasuk": 1,
+      "EndPerek": 6,
+      "EndPasuk": 8,
+      "SeferName": "בראשית"
+    },
+    {
+      "ID": 2,
+      "SeferID": 1,
+      "ParshaName": "נח",
+      "StartPerek": 6,
+      "StartPasuk": 9,
+      "EndPerek": 11,
+      "EndPasuk": 32,
+      "SeferName": "בראשית"
+    },
+    {
+      "ID": 3,
+      "SeferID": 1,
+      "ParshaName": "לך לך",
+      "StartPerek": 12,
+      "StartPasuk": 1,
+      "EndPerek": 17,
+      "EndPasuk": 27,
+      "SeferName": "בראשית"
+    },
+    {
+      "ID": 4,
+      "SeferID": 1,
+      "ParshaName": "וירא",
+      "StartPerek": 18,
+      "StartPasuk": 1,
+      "EndPerek": 22,
+      "EndPasuk": 24,
+      "SeferName": "בראשית"
+    },
+    {
+      "ID": 5,
+      "SeferID": 1,
+      "ParshaName": "חיי שרה",
+      "StartPerek": 23,
+      "StartPasuk": 1,
+      "EndPerek": 25,
+      "EndPasuk": 18,
+      "SeferName": "בראשית"
+    },
+    {
+      "ID": 6,
+      "SeferID": 1,
+      "ParshaName": "תולדות",
+      "StartPerek": 25,
+      "StartPasuk": 19,
+      "EndPerek": 28,
+      "EndPasuk": 9,
+      "SeferName": "בראשית"
+    },
+    {
+      "ID": 7,
+      "SeferID": 1,
+      "ParshaName": "ויצא",
+      "StartPerek": 28,
+      "StartPasuk": 10,
+      "EndPerek": 32,
+      "EndPasuk": 3,
+      "SeferName": "בראשית"
+    },
+    {
+      "ID": 8,
+      "SeferID": 1,
+      "ParshaName": "וישלח",
+      "StartPerek": 32,
+      "StartPasuk": 4,
+      "EndPerek": 36,
+      "EndPasuk": 43,
+      "SeferName": "בראשית"
+    },
+    {
+      "ID": 9,
+      "SeferID": 1,
+      "ParshaName": "וישב",
+      "StartPerek": 37,
+      "StartPasuk": 1,
+      "EndPerek": 40,
+      "EndPasuk": 23,
+      "SeferName": "בראשית"
+    },
+    {
+      "ID": 10,
+      "SeferID": 1,
+      "ParshaName": "מקץ",
+      "StartPerek": 41,
+      "StartPasuk": 1,
+      "EndPerek": 44,
+      "EndPasuk": 17,
+      "SeferName": "בראשית"
+    },
+    {
+      "ID": 11,
+      "SeferID": 1,
+      "ParshaName": "ויגש",
+      "StartPerek": 44,
+      "StartPasuk": 18,
+      "EndPerek": 47,
+      "EndPasuk": 27,
+      "SeferName": "בראשית"
+    },
+    {
+      "ID": 12,
+      "SeferID": 1,
+      "ParshaName": "ויחי",
+      "StartPerek": 47,
+      "StartPasuk": 28,
+      "EndPerek": 50,
+      "EndPasuk": 26,
+      "SeferName": "בראשית"
+    },
+    {
+      "ID": 13,
+      "SeferID": 2,
+      "ParshaName": "שמות",
+      "StartPerek": 1,
+      "StartPasuk": 1,
+      "EndPerek": 6,
+      "EndPasuk": 1,
+      "SeferName": "שמות"
+    },
+    {
+      "ID": 14,
+      "SeferID": 2,
+      "ParshaName": "וארא",
+      "StartPerek": 6,
+      "StartPasuk": 2,
+      "EndPerek": 9,
+      "EndPasuk": 35,
+      "SeferName": "שמות"
+    },
+    {
+      "ID": 15,
+      "SeferID": 2,
+      "ParshaName": "בא",
+      "StartPerek": 10,
+      "StartPasuk": 1,
+      "EndPerek": 13,
+      "EndPasuk": 16,
+      "SeferName": "שמות"
+    },
+    {
+      "ID": 16,
+      "SeferID": 2,
+      "ParshaName": "בשלח",
+      "StartPerek": 13,
+      "StartPasuk": 17,
+      "EndPerek": 17,
+      "EndPasuk": 16,
+      "SeferName": "שמות"
+    },
+    {
+      "ID": 17,
+      "SeferID": 2,
+      "ParshaName": "יתרו",
+      "StartPerek": 18,
+      "StartPasuk": 1,
+      "EndPerek": 20,
+      "EndPasuk": 23,
+      "SeferName": "שמות"
+    },
+    {
+      "ID": 18,
+      "SeferID": 2,
+      "ParshaName": "משפטים",
+      "StartPerek": 21,
+      "StartPasuk": 1,
+      "EndPerek": 24,
+      "EndPasuk": 18,
+      "SeferName": "שמות"
+    },
+    {
+      "ID": 19,
+      "SeferID": 2,
+      "ParshaName": "תרומה",
+      "StartPerek": 25,
+      "StartPasuk": 1,
+      "EndPerek": 27,
+      "EndPasuk": 19,
+      "SeferName": "שמות"
+    },
+    {
+      "ID": 20,
+      "SeferID": 2,
+      "ParshaName": "תצוה",
+      "StartPerek": 27,
+      "StartPasuk": 20,
+      "EndPerek": 30,
+      "EndPasuk": 10,
+      "SeferName": "שמות"
+    },
+    {
+      "ID": 21,
+      "SeferID": 2,
+      "ParshaName": "כי תשא",
+      "StartPerek": 30,
+      "StartPasuk": 11,
+      "EndPerek": 34,
+      "EndPasuk": 35,
+      "SeferName": "שמות"
+    },
+    {
+      "ID": 22,
+      "SeferID": 2,
+      "ParshaName": "ויקהל",
+      "StartPerek": 35,
+      "StartPasuk": 1,
+      "EndPerek": 38,
+      "EndPasuk": 20,
+      "SeferName": "שמות"
+    },
+    {
+      "ID": 23,
+      "SeferID": 2,
+      "ParshaName": "פקודי",
+      "StartPerek": 38,
+      "StartPasuk": 21,
+      "EndPerek": 40,
+      "EndPasuk": 38,
+      "SeferName": "שמות"
+    },
+    {
+      "ID": 24,
+      "SeferID": 3,
+      "ParshaName": "ויקרא",
+      "StartPerek": 1,
+      "StartPasuk": 1,
+      "EndPerek": 5,
+      "EndPasuk": 26,
+      "SeferName": "ויקרא"
+    },
+    {
+      "ID": 25,
+      "SeferID": 3,
+      "ParshaName": "צו",
+      "StartPerek": 6,
+      "StartPasuk": 1,
+      "EndPerek": 8,
+      "EndPasuk": 36,
+      "SeferName": "ויקרא"
+    },
+    {
+      "ID": 26,
+      "SeferID": 3,
+      "ParshaName": "שמיני",
+      "StartPerek": 9,
+      "StartPasuk": 1,
+      "EndPerek": 11,
+      "EndPasuk": 47,
+      "SeferName": "ויקרא"
+    },
+    {
+      "ID": 27,
+      "SeferID": 3,
+      "ParshaName": "תזריע",
+      "StartPerek": 12,
+      "StartPasuk": 1,
+      "EndPerek": 13,
+      "EndPasuk": 59,
+      "SeferName": "ויקרא"
+    },
+    {
+      "ID": 28,
+      "SeferID": 3,
+      "ParshaName": "מצורע",
+      "StartPerek": 14,
+      "StartPasuk": 1,
+      "EndPerek": 15,
+      "EndPasuk": 33,
+      "SeferName": "ויקרא"
+    },
+    {
+      "ID": 29,
+      "SeferID": 3,
+      "ParshaName": "אחרי מות",
+      "StartPerek": 16,
+      "StartPasuk": 1,
+      "EndPerek": 18,
+      "EndPasuk": 30,
+      "SeferName": "ויקרא"
+    },
+    {
+      "ID": 30,
+      "SeferID": 3,
+      "ParshaName": "קדושים",
+      "StartPerek": 19,
+      "StartPasuk": 1,
+      "EndPerek": 20,
+      "EndPasuk": 27,
+      "SeferName": "ויקרא"
+    },
+    {
+      "ID": 31,
+      "SeferID": 3,
+      "ParshaName": "אמור",
+      "StartPerek": 21,
+      "StartPasuk": 1,
+      "EndPerek": 24,
+      "EndPasuk": 23,
+      "SeferName": "ויקרא"
+    },
+    {
+      "ID": 32,
+      "SeferID": 3,
+      "ParshaName": "בהר",
+      "StartPerek": 25,
+      "StartPasuk": 1,
+      "EndPerek": 26,
+      "EndPasuk": 2,
+      "SeferName": "ויקרא"
+    },
+    {
+      "ID": 33,
+      "SeferID": 3,
+      "ParshaName": "בחוקותי",
+      "StartPerek": 26,
+      "StartPasuk": 3,
+      "EndPerek": 27,
+      "EndPasuk": 34,
+      "SeferName": "ויקרא"
+    },
+    {
+      "ID": 34,
+      "SeferID": 4,
+      "ParshaName": "במדבר",
+      "StartPerek": 1,
+      "StartPasuk": 1,
+      "EndPerek": 4,
+      "EndPasuk": 20,
+      "SeferName": "במדבר"
+    },
+    {
+      "ID": 35,
+      "SeferID": 4,
+      "ParshaName": "נשא",
+      "StartPerek": 4,
+      "StartPasuk": 21,
+      "EndPerek": 7,
+      "EndPasuk": 89,
+      "SeferName": "במדבר"
+    },
+    {
+      "ID": 36,
+      "SeferID": 4,
+      "ParshaName": "בהעלותך",
+      "StartPerek": 8,
+      "StartPasuk": 1,
+      "EndPerek": 12,
+      "EndPasuk": 16,
+      "SeferName": "במדבר"
+    },
+    {
+      "ID": 37,
+      "SeferID": 4,
+      "ParshaName": "שלח",
+      "StartPerek": 13,
+      "StartPasuk": 1,
+      "EndPerek": 15,
+      "EndPasuk": 41,
+      "SeferName": "במדבר"
+    },
+    {
+      "ID": 38,
+      "SeferID": 4,
+      "ParshaName": "קרח",
+      "StartPerek": 16,
+      "StartPasuk": 1,
+      "EndPerek": 18,
+      "EndPasuk": 32,
+      "SeferName": "במדבר"
+    },
+    {
+      "ID": 39,
+      "SeferID": 4,
+      "ParshaName": "חקת",
+      "StartPerek": 19,
+      "StartPasuk": 1,
+      "EndPerek": 22,
+      "EndPasuk": 1,
+      "SeferName": "במדבר"
+    },
+    {
+      "ID": 40,
+      "SeferID": 4,
+      "ParshaName": "בלק",
+      "StartPerek": 22,
+      "StartPasuk": 2,
+      "EndPerek": 25,
+      "EndPasuk": 9,
+      "SeferName": "במדבר"
+    },
+    {
+      "ID": 41,
+      "SeferID": 4,
+      "ParshaName": "פנחס",
+      "StartPerek": 25,
+      "StartPasuk": 10,
+      "EndPerek": 30,
+      "EndPasuk": 1,
+      "SeferName": "במדבר"
+    },
+    {
+      "ID": 42,
+      "SeferID": 4,
+      "ParshaName": "מטות",
+      "StartPerek": 30,
+      "StartPasuk": 2,
+      "EndPerek": 32,
+      "EndPasuk": 42,
+      "SeferName": "במדבר"
+    },
+    {
+      "ID": 43,
+      "SeferID": 4,
+      "ParshaName": "מסעי",
+      "StartPerek": 33,
+      "StartPasuk": 1,
+      "EndPerek": 36,
+      "EndPasuk": 13,
+      "SeferName": "במדבר"
+    },
+    {
+      "ID": 44,
+      "SeferID": 5,
+      "ParshaName": "דברים",
+      "StartPerek": 1,
+      "StartPasuk": 1,
+      "EndPerek": 3,
+      "EndPasuk": 22,
+      "SeferName": "דברים"
+    },
+    {
+      "ID": 45,
+      "SeferID": 5,
+      "ParshaName": "ואתחנן",
+      "StartPerek": 3,
+      "StartPasuk": 23,
+      "EndPerek": 7,
+      "EndPasuk": 11,
+      "SeferName": "דברים"
+    },
+    {
+      "ID": 46,
+      "SeferID": 5,
+      "ParshaName": "עקב",
+      "StartPerek": 7,
+      "StartPasuk": 12,
+      "EndPerek": 11,
+      "EndPasuk": 25,
+      "SeferName": "דברים"
+    },
+    {
+      "ID": 47,
+      "SeferID": 5,
+      "ParshaName": "ראה",
+      "StartPerek": 11,
+      "StartPasuk": 26,
+      "EndPerek": 16,
+      "EndPasuk": 17,
+      "SeferName": "דברים"
+    },
+    {
+      "ID": 48,
+      "SeferID": 5,
+      "ParshaName": "שופטים",
+      "StartPerek": 16,
+      "StartPasuk": 18,
+      "EndPerek": 21,
+      "EndPasuk": 9,
+      "SeferName": "דברים"
+    },
+    {
+      "ID": 49,
+      "SeferID": 5,
+      "ParshaName": "כי תצא",
+      "StartPerek": 21,
+      "StartPasuk": 10,
+      "EndPerek": 25,
+      "EndPasuk": 19,
+      "SeferName": "דברים"
+    },
+    {
+      "ID": 50,
+      "SeferID": 5,
+      "ParshaName": "כי תבוא",
+      "StartPerek": 26,
+      "StartPasuk": 1,
+      "EndPerek": 29,
+      "EndPasuk": 8,
+      "SeferName": "דברים"
+    },
+    {
+      "ID": 51,
+      "SeferID": 5,
+      "ParshaName": "נצבים",
+      "StartPerek": 29,
+      "StartPasuk": 9,
+      "EndPerek": 30,
+      "EndPasuk": 20,
+      "SeferName": "דברים"
+    },
+    {
+      "ID": 52,
+      "SeferID": 5,
+      "ParshaName": "וילך",
+      "StartPerek": 31,
+      "StartPasuk": 1,
+      "EndPerek": 31,
+      "EndPasuk": 30,
+      "SeferName": "דברים"
+    },
+    {
+      "ID": 53,
+      "SeferID": 5,
+      "ParshaName": "האזינו",
+      "StartPerek": 32,
+      "StartPasuk": 1,
+      "EndPerek": 32,
+      "EndPasuk": 52,
+      "SeferName": "דברים"
+    },
+    {
+      "ID": 54,
+      "SeferID": 5,
+      "ParshaName": "וזאת הברכה",
+      "StartPerek": 33,
+      "StartPasuk": 1,
+      "EndPerek": 34,
+      "EndPasuk": 12,
+      "SeferName": "דברים"
+    }
+  ],
+  "statistics": {
+    "main_count": 54,
+    "alternative_count": 54
+  }
+}

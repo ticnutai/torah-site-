@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>תורה אינטראקטיבית - פסוקים ושאלות</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 30px;
+            text-align: center;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .header h1 {
+            color: #2d3748;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .header p {
+            color: #718096;
+            font-size: 1.1rem;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .stat-card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            backdrop-filter: blur(10px);
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: bold;
+            display: block;
+        }
+
+        .books-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin: 30px 0;
+        }
+
+        .book-card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: 2px solid transparent;
+        }
+
+        .book-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+            border-color: #667eea;
+        }
+
+        .book-title {
+            font-size: 1.8rem;
+            color: #2d3748;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .book-stats {
+            display: flex;
+            justify-content: space-between;
+            margin: 15px 0;
+            font-size: 0.9rem;
+            color: #718096;
+        }
+
+        .book-stats span {
+            background: #f7fafc;
+            padding: 5px 10px;
+            border-radius: 10px;
+        }
+
+        .progress-bar {
+            background: #e2e8f0;
+            border-radius: 10px;
+            height: 8px;
+            margin: 15px 0;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            height: 100%;
+            border-radius: 10px;
+            transition: width 0.3s ease;
+        }
+
+        .chapter-view {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 30px;
+            margin: 20px 0;
+        }
+
+        .chapter-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #e2e8f0;
+        }
+
+        .back-button {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 15px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .back-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .chapters-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+            gap: 10px;
+            margin: 20px 0;
+        }
+
+        .chapter-button {
+            background: #f7fafc;
+            border: 2px solid #e2e8f0;
+            border-radius: 10px;
+            padding: 15px 10px;
+            cursor: pointer;
+            text-align: center;
+            transition: all 0.3s ease;
+            font-weight: bold;
+        }
+
+        .chapter-button:hover {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            border-color: transparent;
+        }
+
+        .chapter-button.active {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            border-color: transparent;
+        }
+
+        .verse {
+            background: #f8fafc;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 15px 0;
+            border-right: 4px solid #667eea;
+            transition: all 0.3s ease;
+        }
+
+        .verse:hover {
+            background: #edf2f7;
+            transform: translateX(-5px);
+        }
+
+        .verse-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .verse-number {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        .verse-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #2d3748;
+            margin: 15px 0;
+        }
+
+        .questions-section {
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .questions-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .questions-toggle {
+            background: #4299e1;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+
+        .questions-toggle:hover {
+            background: #3182ce;
+            transform: scale(1.05);
+        }
+
+        .questions-list {
+            background: #fff;
+            border-radius: 10px;
+            padding: 15px;
+            margin-top: 10px;
+            border: 1px solid #e2e8f0;
+        }
+
+        .question-group {
+            margin-bottom: 15px;
+        }
+
+        .question-title {
+            font-weight: bold;
+            color: #4a5568;
+            margin-bottom: 8px;
+            font-size: 0.95rem;
+        }
+
+        .question-item {
+            background: #f7fafc;
+            padding: 10px;
+            border-radius: 8px;
+            margin: 5px 0;
+            border-right: 3px solid #4299e1;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 50px;
+            color: white;
+            font-size: 1.2rem;
+        }
+
+        .loading::after {
+            content: '';
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            border-top-color: white;
+            animation: spin 1s ease-in-out infinite;
+            margin-right: 10px;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .search-section {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #e2e8f0;
+            border-radius: 15px;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .books-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .chapters-grid {
+                grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+            }
+
+            .container {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+
+    <!-- Data Loader Script -->
+    <script>
+        // Torah Data Loader - טוען נתונים אמיתיים
+        class TorahDataLoader {
+            constructor() {
+                this.baseURL = './website_data/';
+                this.cache = new Map();
+            }
+
+            async loadBooksIndex() {
+                if (this.cache.has('books_index')) {
+                    return this.cache.get('books_index');
+                }
+
+                try {
+                    const response = await fetch(`${this.baseURL}api/books_index.json`);
+                    if (!response.ok) throw new Error('Failed to load books index');
+                    
+                    const data = await response.json();
+                    this.cache.set('books_index', data);
+                    return data;
+                } catch (error) {
+                    console.error('Error loading books index:', error);
+                    return this.getFallbackBooksData();
+                }
+            }
+
+            async loadBook(bookId) {
+                const cacheKey = `book_${bookId}`;
+                if (this.cache.has(cacheKey)) {
+                    return this.cache.get(cacheKey);
+                }
+
+                try {
+                    const response = await fetch(`${this.baseURL}books/book_${bookId}.json`);
+                    if (!response.ok) throw new Error(`Failed to load book ${bookId}`);
+                    
+                    const data = await response.json();
+                    this.cache.set(cacheKey, data);
+                    return data;
+                } catch (error) {
+                    console.error(`Error loading book ${bookId}:`, error);
+                    return null;
+                }
+            }
+
+            getFallbackBooksData() {
+                return {
+                    books: [
+                        { id: 1, name: "בראשית", slug: "genesis", chapter_count: 50, verse_count: 1519, question_count: 6287 },
+                        { id: 2, name: "שמות", slug: "exodus", chapter_count: 40, verse_count: 1209, question_count: 5633 },
+                        { id: 3, name: "ויקרא", slug: "leviticus", chapter_count: 27, verse_count: 859, question_count: 3182 },
+                        { id: 4, name: "במדבר", slug: "numbers", chapter_count: 36, verse_count: 1288, question_count: 3973 },
+                        { id: 5, name: "דברים", slug: "deuteronomy", chapter_count: 34, verse_count: 955, question_count: 4203 }
+                    ]
+                };
+            }
+        }
+
+        window.torahDataLoader = new TorahDataLoader();
+    </script>
+
+    <script type="text/babel">
+        const { useState, useEffect } = React;
+
+        function BookCard({ book, onClick }) {
+            return (
+                <div className="book-card" onClick={() => onClick(book)}>
+                    <div className="book-title">{book.name}</div>
+                    <div className="book-stats">
+                        <span>📖 {book.chapter_count} פרקים</span>
+                        <span>📝 {book.verse_count} פסוקים</span>
+                        <span>❓ {book.question_count} שאלות</span>
+                    </div>
+                    <div className="progress-bar">
+                        <div 
+                            className="progress-fill" 
+                            style={{ width: `${(book.question_count / 7000) * 100}%` }}
+                        ></div>
+                    </div>
+                </div>
+            );
+        }
+
+        function Verse({ verse, verseIndex }) {
+            const [showQuestions, setShowQuestions] = useState(false);
+
+            return (
+                <div className="verse">
+                    <div className="verse-header">
+                        <span className="verse-number">פסוק {verse.verse_number}</span>
+                        {verse.total_questions > 0 && (
+                            <span style={{ color: '#4299e1', fontWeight: 'bold' }}>
+                                ❓ {verse.total_questions} שאלות
+                            </span>
+                        )}
+                    </div>
+                    <div className="verse-text">{verse.text}</div>
+                    
+                    {verse.total_questions > 0 && (
+                        <div className="questions-section">
+                            <div className="questions-header">
+                                <button 
+                                    className="questions-toggle"
+                                    onClick={() => setShowQuestions(!showQuestions)}
+                                >
+                                    {showQuestions ? 'הסתר שאלות' : 'הצג שאלות'}
+                                </button>
+                            </div>
+                            
+                            {showQuestions && (
+                                <div className="questions-list">
+                                    {verse.question_groups.map((group, groupIndex) => (
+                                        <div key={groupIndex} className="question-group">
+                                            <div className="question-title">{group.title}</div>
+                                            {group.questions.map((question, qIndex) => (
+                                                <div key={qIndex} className="question-item">
+                                                    {question}
+                                                </div>
+                                            ))}
+                                        </div>
+                                    ))}
+                                </div>
+                            )}
+                        </div>
+                    )}
+                </div>
+            );
+        }
+
+        function ChapterView({ book, onBack }) {
+            const [selectedChapter, setSelectedChapter] = useState(1);
+            const [bookData, setBookData] = useState(null);
+            const [loading, setLoading] = useState(true);
+            const [error, setError] = useState(null);
+
+            useEffect(() => {
+                async function loadBookData() {
+                    try {
+                        setLoading(true);
+                        const data = await window.torahDataLoader.loadBook(book.id);
+                        if (data) {
+                            setBookData(data);
+                            setError(null);
+                        } else {
+                            setError('לא ניתן לטעון את נתוני הספר');
+                        }
+                    } catch (err) {
+                        setError('שגיאה בטעינת הספר');
+                        console.error('Error loading book:', err);
+                    } finally {
+                        setLoading(false);
+                    }
+                }
+
+                loadBookData();
+            }, [book.id]);
+
+            if (loading) {
+                return <div className="loading">טוען את ספר {book.name}...</div>;
+            }
+
+            if (error) {
+                return (
+                    <div className="chapter-view">
+                        <div className="chapter-header">
+                            <button className="back-button" onClick={onBack}>
+                                ← חזור לרשימת ספרים
+                            </button>
+                            <h2>{book.name}</h2>
+                        </div>
+                        <div style={{ textAlign: 'center', padding: '50px', color: '#e53e3e' }}>
+                            <h3>⚠️ {error}</h3>
+                            <p>נסה לרענן את הדף או לחזור מאוחר יותר</p>
+                        </div>
+                    </div>
+                );
+            }
+
+            const currentChapter = bookData?.chapters.find(ch => ch.chapter_number === selectedChapter);
+
+            return (
+                <div className="chapter-view">
+                    <div className="chapter-header">
+                        <button className="back-button" onClick={onBack}>
+                            ← חזור לרשימת ספרים
+                        </button>
+                        <h2>{book.name}</h2>
+                    </div>
+
+                    <div className="stats">
+                        <div className="stat-card">
+                            <span className="stat-number">{book.chapter_count}</span>
+                            פרקים
+                        </div>
+                        <div className="stat-card">
+                            <span className="stat-number">{book.verse_count}</span>
+                            פסוקים
+                        </div>
+                        <div className="stat-card">
+                            <span className="stat-number">{book.question_count}</span>
+                            שאלות
+                        </div>
+                    </div>
+
+                    <h3>בחר פרק:</h3>
+                    <div className="chapters-grid">
+                        {Array.from({ length: book.chapter_count }, (_, i) => i + 1).map(chapterNum => (
+                            <button
+                                key={chapterNum}
+                                className={`chapter-button ${selectedChapter === chapterNum ? 'active' : ''}`}
+                                onClick={() => setSelectedChapter(chapterNum)}
+                            >
+                                {chapterNum}
+                            </button>
+                        ))}
+                    </div>
+
+                    {currentChapter ? (
+                        <div>
+                            <h3>פרק {selectedChapter}</h3>
+                            {currentChapter.verses.map((verse, index) => (
+                                <Verse key={verse.verse_number} verse={verse} verseIndex={index} />
+                            ))}
+                        </div>
+                    ) : (
+                        <div style={{ textAlign: 'center', padding: '30px', color: '#718096' }}>
+                            <h4>פרק {selectedChapter} נטען...</h4>
+                            <p>אנא המתן בזמן טעינת הפסוקים</p>
+                        </div>
+                    )}
+                </div>
+            );
+        }
+
+        function HomePage({ booksData, onBookSelect }) {
+            const totalStats = booksData.books.reduce((acc, book) => ({
+                chapters: acc.chapters + book.chapter_count,
+                verses: acc.verses + book.verse_count,
+                questions: acc.questions + book.question_count
+            }), { chapters: 0, verses: 0, questions: 0 });
+
+            return (
+                <>
+                    <div className="header">
+                        <h1>🕎 תורה אינטראקטיבית</h1>
+                        <p>לימוד התורה עם פסוקים ושאלות להעמקה</p>
+                        
+                        <div className="stats">
+                            <div className="stat-card">
+                                <span className="stat-number">{booksData.books.length}</span>
+                                חומשי תורה
+                            </div>
+                            <div className="stat-card">
+                                <span className="stat-number">{totalStats.chapters}</span>
+                                פרקים
+                            </div>
+                            <div className="stat-card">
+                                <span className="stat-number">{totalStats.verses.toLocaleString()}</span>
+                                פסוקים
+                            </div>
+                            <div className="stat-card">
+                                <span className="stat-number">{totalStats.questions.toLocaleString()}</span>
+                                שאלות
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="search-section">
+                        <input 
+                            type="text" 
+                            className="search-input" 
+                            placeholder="🔍 חפש פסוק, שאלה או נושא..."
+                        />
+                    </div>
+
+                    <div className="books-grid">
+                        {booksData.books.map(book => (
+                            <BookCard 
+                                key={book.id} 
+                                book={book} 
+                                onClick={onBookSelect}
+                            />
+                        ))}
+                    </div>
+                </>
+            );
+        }
+
+        function App() {
+            const [currentView, setCurrentView] = useState('home');
+            const [selectedBook, setSelectedBook] = useState(null);
+            const [booksData, setBooksData] = useState(null);
+            const [loading, setLoading] = useState(true);
+            const [error, setError] = useState(null);
+
+            useEffect(() => {
+                async function loadInitialData() {
+                    try {
+                        setLoading(true);
+                        const books = await window.torahDataLoader.loadBooksIndex();
+                        setBooksData(books);
+                        setError(null);
+                    } catch (err) {
+                        setError('שגיאה בטעינת נתוני התורה');
+                        console.error('Error loading initial data:', err);
+                        // טעינת נתונים חלופיים
+                        setBooksData(window.torahDataLoader.getFallbackBooksData());
+                    } finally {
+                        setLoading(false);
+                    }
+                }
+
+                loadInitialData();
+            }, []);
+
+            const handleBookSelect = (book) => {
+                setSelectedBook(book);
+                setCurrentView('book');
+            };
+
+            const handleBackToHome = () => {
+                setCurrentView('home');
+                setSelectedBook(null);
+            };
+
+            if (loading) {
+                return (
+                    <div className="container">
+                        <div className="loading">טוען את נתוני התורה...</div>
+                    </div>
+                );
+            }
+
+            if (error && !booksData) {
+                return (
+                    <div className="container">
+                        <div className="header">
+                            <h1>⚠️ שגיאה בטעינת הנתונים</h1>
+                            <p>לא ניתן לטעון את נתוני התורה. אנא ודא שהקבצים נמצאים בתיקייה הנכונה.</p>
+                            <button 
+                                className="back-button" 
+                                onClick={() => window.location.reload()}
+                                style={{ marginTop: '20px' }}
+                            >
+                                🔄 נסה שוב
+                            </button>
+                        </div>
+                    </div>
+                );
+            }
+
+            return (
+                <div className="container">
+                    {error && (
+                        <div style={{ 
+                            background: '#fed7d7', 
+                            color: '#c53030', 
+                            padding: '10px', 
+                            borderRadius: '10px', 
+                            marginBottom: '20px',
+                            textAlign: 'center'
+                        }}>
+                            ⚠️ {error} - משתמש בנתונים חלופיים
+                        </div>
+                    )}
+                    
+                    {currentView === 'home' && booksData && (
+                        <HomePage 
+                            booksData={booksData} 
+                            onBookSelect={handleBookSelect}
+                        />
+                    )}
+                    
+                    {currentView === 'book' && selectedBook && (
+                        <ChapterView 
+                            book={selectedBook}
+                            onBack={handleBackToHome}
+                        />
+                    )}
+                </div>
+            );
+        }
+
+        ReactDOM.render(<App />, document.getElementById('root'));
+    </script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "name": "בראשית",
+      "slug": "genesis",
+      "chapter_count": 50,
+      "verse_count": 1519,
+      "question_count": 6287,
+      "file_path": "books/book_1.json"
+    },
+    {
+      "id": 2,
+      "name": "שמות",
+      "slug": "exodus",
+      "chapter_count": 40,
+      "verse_count": 1209,
+      "question_count": 5633,
+      "file_path": "books/book_2.json"
+    },
+    {
+      "id": 3,
+      "name": "ויקרא",
+      "slug": "leviticus",
+      "chapter_count": 27,
+      "verse_count": 859,
+      "question_count": 3182,
+      "file_path": "books/book_3.json"
+    },
+    {
+      "id": 4,
+      "name": "במדבר",
+      "slug": "numbers",
+      "chapter_count": 36,
+      "verse_count": 1288,
+      "question_count": 3973,
+      "file_path": "books/book_4.json"
+    },
+    {
+      "id": 5,
+      "name": "דברים",
+      "slug": "deuteronomy",
+      "chapter_count": 34,
+      "verse_count": 955,
+      "question_count": 4203,
+      "file_path": "books/book_5.json"
+    }
+  ]
+}

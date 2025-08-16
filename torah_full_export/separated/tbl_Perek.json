@@ -1,0 +1,225 @@
+{
+  "table_name": "tbl_Perek",
+  "columns": [
+    {
+      "cid": 0,
+      "name": "ID",
+      "type": "INTEGER",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 1
+    },
+    {
+      "cid": 1,
+      "name": "PerekName",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    }
+  ],
+  "record_count": 50,
+  "exported": "2025-08-16T22:06:32.231303",
+  "data": [
+    {
+      "ID": 1,
+      "PerekName": "א"
+    },
+    {
+      "ID": 2,
+      "PerekName": "ב"
+    },
+    {
+      "ID": 3,
+      "PerekName": "ג"
+    },
+    {
+      "ID": 4,
+      "PerekName": "ד"
+    },
+    {
+      "ID": 5,
+      "PerekName": "ה"
+    },
+    {
+      "ID": 6,
+      "PerekName": "ו"
+    },
+    {
+      "ID": 7,
+      "PerekName": "ז"
+    },
+    {
+      "ID": 8,
+      "PerekName": "ח"
+    },
+    {
+      "ID": 9,
+      "PerekName": "ט"
+    },
+    {
+      "ID": 10,
+      "PerekName": "י"
+    },
+    {
+      "ID": 11,
+      "PerekName": "יא"
+    },
+    {
+      "ID": 12,
+      "PerekName": "יב"
+    },
+    {
+      "ID": 13,
+      "PerekName": "יג"
+    },
+    {
+      "ID": 14,
+      "PerekName": "יד"
+    },
+    {
+      "ID": 15,
+      "PerekName": "טו"
+    },
+    {
+      "ID": 16,
+      "PerekName": "טז"
+    },
+    {
+      "ID": 17,
+      "PerekName": "יז"
+    },
+    {
+      "ID": 18,
+      "PerekName": "יח"
+    },
+    {
+      "ID": 19,
+      "PerekName": "יט"
+    },
+    {
+      "ID": 20,
+      "PerekName": "כ"
+    },
+    {
+      "ID": 21,
+      "PerekName": "כא"
+    },
+    {
+      "ID": 22,
+      "PerekName": "כב"
+    },
+    {
+      "ID": 23,
+      "PerekName": "כג"
+    },
+    {
+      "ID": 24,
+      "PerekName": "כד"
+    },
+    {
+      "ID": 25,
+      "PerekName": "כה"
+    },
+    {
+      "ID": 26,
+      "PerekName": "כו"
+    },
+    {
+      "ID": 27,
+      "PerekName": "כז"
+    },
+    {
+      "ID": 28,
+      "PerekName": "כח"
+    },
+    {
+      "ID": 29,
+      "PerekName": "כט"
+    },
+    {
+      "ID": 30,
+      "PerekName": "ל"
+    },
+    {
+      "ID": 31,
+      "PerekName": "לא"
+    },
+    {
+      "ID": 32,
+      "PerekName": "לב"
+    },
+    {
+      "ID": 33,
+      "PerekName": "לג"
+    },
+    {
+      "ID": 34,
+      "PerekName": "לד"
+    },
+    {
+      "ID": 35,
+      "PerekName": "לה"
+    },
+    {
+      "ID": 36,
+      "PerekName": "לו"
+    },
+    {
+      "ID": 37,
+      "PerekName": "לז"
+    },
+    {
+      "ID": 38,
+      "PerekName": "לח"
+    },
+    {
+      "ID": 39,
+      "PerekName": "לט"
+    },
+    {
+      "ID": 40,
+      "PerekName": "מ"
+    },
+    {
+      "ID": 41,
+      "PerekName": "מא"
+    },
+    {
+      "ID": 42,
+      "PerekName": "מב"
+    },
+    {
+      "ID": 43,
+      "PerekName": "מג"
+    },
+    {
+      "ID": 44,
+      "PerekName": "מד"
+    },
+    {
+      "ID": 45,
+      "PerekName": "מה"
+    },
+    {
+      "ID": 46,
+      "PerekName": "מו"
+    },
+    {
+      "ID": 47,
+      "PerekName": "מז"
+    },
+    {
+      "ID": 48,
+      "PerekName": "מח"
+    },
+    {
+      "ID": 49,
+      "PerekName": "מט"
+    },
+    {
+      "ID": 50,
+      "PerekName": "נ"
+    }
+  ]
+}

@@ -1,0 +1,437 @@
+{
+  "parshiot": [
+    {
+      "id": 1,
+      "name": "בראשית",
+      "sefer_id": 1,
+      "sefer_name": "בראשית",
+      "start_chapter": 1,
+      "start_verse": 1
+    },
+    {
+      "id": 2,
+      "name": "נח",
+      "sefer_id": 1,
+      "sefer_name": "בראשית",
+      "start_chapter": 6,
+      "start_verse": 9
+    },
+    {
+      "id": 3,
+      "name": "לך לך",
+      "sefer_id": 1,
+      "sefer_name": "בראשית",
+      "start_chapter": 12,
+      "start_verse": 1
+    },
+    {
+      "id": 4,
+      "name": "וירא",
+      "sefer_id": 1,
+      "sefer_name": "בראשית",
+      "start_chapter": 18,
+      "start_verse": 1
+    },
+    {
+      "id": 5,
+      "name": "חיי שרה",
+      "sefer_id": 1,
+      "sefer_name": "בראשית",
+      "start_chapter": 23,
+      "start_verse": 1
+    },
+    {
+      "id": 6,
+      "name": "תולדות",
+      "sefer_id": 1,
+      "sefer_name": "בראשית",
+      "start_chapter": 25,
+      "start_verse": 19
+    },
+    {
+      "id": 7,
+      "name": "ויצא",
+      "sefer_id": 1,
+      "sefer_name": "בראשית",
+      "start_chapter": 28,
+      "start_verse": 10
+    },
+    {
+      "id": 8,
+      "name": "וישלח",
+      "sefer_id": 1,
+      "sefer_name": "בראשית",
+      "start_chapter": 32,
+      "start_verse": 4
+    },
+    {
+      "id": 9,
+      "name": "וישב",
+      "sefer_id": 1,
+      "sefer_name": "בראשית",
+      "start_chapter": 37,
+      "start_verse": 1
+    },
+    {
+      "id": 10,
+      "name": "מקץ",
+      "sefer_id": 1,
+      "sefer_name": "בראשית",
+      "start_chapter": 41,
+      "start_verse": 1
+    },
+    {
+      "id": 11,
+      "name": "ויגש",
+      "sefer_id": 1,
+      "sefer_name": "בראשית",
+      "start_chapter": 44,
+      "start_verse": 18
+    },
+    {
+      "id": 12,
+      "name": "ויחי",
+      "sefer_id": 1,
+      "sefer_name": "בראשית",
+      "start_chapter": 47,
+      "start_verse": 28
+    },
+    {
+      "id": 13,
+      "name": "שמות",
+      "sefer_id": 2,
+      "sefer_name": "שמות",
+      "start_chapter": 1,
+      "start_verse": 1
+    },
+    {
+      "id": 14,
+      "name": "וארא",
+      "sefer_id": 2,
+      "sefer_name": "שמות",
+      "start_chapter": 6,
+      "start_verse": 2
+    },
+    {
+      "id": 15,
+      "name": "בא",
+      "sefer_id": 2,
+      "sefer_name": "שמות",
+      "start_chapter": 10,
+      "start_verse": 1
+    },
+    {
+      "id": 16,
+      "name": "בשלח",
+      "sefer_id": 2,
+      "sefer_name": "שמות",
+      "start_chapter": 13,
+      "start_verse": 17
+    },
+    {
+      "id": 17,
+      "name": "יתרו",
+      "sefer_id": 2,
+      "sefer_name": "שמות",
+      "start_chapter": 18,
+      "start_verse": 1
+    },
+    {
+      "id": 18,
+      "name": "משפטים",
+      "sefer_id": 2,
+      "sefer_name": "שמות",
+      "start_chapter": 21,
+      "start_verse": 1
+    },
+    {
+      "id": 19,
+      "name": "תרומה",
+      "sefer_id": 2,
+      "sefer_name": "שמות",
+      "start_chapter": 25,
+      "start_verse": 1
+    },
+    {
+      "id": 20,
+      "name": "תצוה",
+      "sefer_id": 2,
+      "sefer_name": "שמות",
+      "start_chapter": 27,
+      "start_verse": 20
+    },
+    {
+      "id": 21,
+      "name": "כי תשא",
+      "sefer_id": 2,
+      "sefer_name": "שמות",
+      "start_chapter": 30,
+      "start_verse": 11
+    },
+    {
+      "id": 22,
+      "name": "ויקהל",
+      "sefer_id": 2,
+      "sefer_name": "שמות",
+      "start_chapter": 35,
+      "start_verse": 1
+    },
+    {
+      "id": 23,
+      "name": "פקודי",
+      "sefer_id": 2,
+      "sefer_name": "שמות",
+      "start_chapter": 38,
+      "start_verse": 21
+    },
+    {
+      "id": 24,
+      "name": "ויקרא",
+      "sefer_id": 3,
+      "sefer_name": "ויקרא",
+      "start_chapter": 1,
+      "start_verse": 1
+    },
+    {
+      "id": 25,
+      "name": "צו",
+      "sefer_id": 3,
+      "sefer_name": "ויקרא",
+      "start_chapter": 6,
+      "start_verse": 1
+    },
+    {
+      "id": 26,
+      "name": "שמיני",
+      "sefer_id": 3,
+      "sefer_name": "ויקרא",
+      "start_chapter": 9,
+      "start_verse": 1
+    },
+    {
+      "id": 27,
+      "name": "תזריע",
+      "sefer_id": 3,
+      "sefer_name": "ויקרא",
+      "start_chapter": 12,
+      "start_verse": 1
+    },
+    {
+      "id": 28,
+      "name": "מצורע",
+      "sefer_id": 3,
+      "sefer_name": "ויקרא",
+      "start_chapter": 14,
+      "start_verse": 1
+    },
+    {
+      "id": 29,
+      "name": "אחרי מות",
+      "sefer_id": 3,
+      "sefer_name": "ויקרא",
+      "start_chapter": 16,
+      "start_verse": 1
+    },
+    {
+      "id": 30,
+      "name": "קדושים",
+      "sefer_id": 3,
+      "sefer_name": "ויקרא",
+      "start_chapter": 19,
+      "start_verse": 1
+    },
+    {
+      "id": 31,
+      "name": "אמור",
+      "sefer_id": 3,
+      "sefer_name": "ויקרא",
+      "start_chapter": 21,
+      "start_verse": 1
+    },
+    {
+      "id": 32,
+      "name": "בהר",
+      "sefer_id": 3,
+      "sefer_name": "ויקרא",
+      "start_chapter": 25,
+      "start_verse": 1
+    },
+    {
+      "id": 33,
+      "name": "בחקתי",
+      "sefer_id": 3,
+      "sefer_name": "ויקרא",
+      "start_chapter": 26,
+      "start_verse": 3
+    },
+    {
+      "id": 34,
+      "name": "במדבר",
+      "sefer_id": 4,
+      "sefer_name": "במדבר",
+      "start_chapter": 1,
+      "start_verse": 1
+    },
+    {
+      "id": 35,
+      "name": "נשא",
+      "sefer_id": 4,
+      "sefer_name": "במדבר",
+      "start_chapter": 4,
+      "start_verse": 21
+    },
+    {
+      "id": 36,
+      "name": "בהעלתך",
+      "sefer_id": 4,
+      "sefer_name": "במדבר",
+      "start_chapter": 8,
+      "start_verse": 1
+    },
+    {
+      "id": 37,
+      "name": "שלח לך",
+      "sefer_id": 4,
+      "sefer_name": "במדבר",
+      "start_chapter": 13,
+      "start_verse": 1
+    },
+    {
+      "id": 38,
+      "name": "קרח",
+      "sefer_id": 4,
+      "sefer_name": "במדבר",
+      "start_chapter": 16,
+      "start_verse": 1
+    },
+    {
+      "id": 39,
+      "name": "חקת",
+      "sefer_id": 4,
+      "sefer_name": "במדבר",
+      "start_chapter": 19,
+      "start_verse": 1
+    },
+    {
+      "id": 40,
+      "name": "בלק",
+      "sefer_id": 4,
+      "sefer_name": "במדבר",
+      "start_chapter": 22,
+      "start_verse": 2
+    },
+    {
+      "id": 41,
+      "name": "פנחס",
+      "sefer_id": 4,
+      "sefer_name": "במדבר",
+      "start_chapter": 25,
+      "start_verse": 10
+    },
+    {
+      "id": 42,
+      "name": "מטות",
+      "sefer_id": 4,
+      "sefer_name": "במדבר",
+      "start_chapter": 30,
+      "start_verse": 2
+    },
+    {
+      "id": 43,
+      "name": "מסעי",
+      "sefer_id": 4,
+      "sefer_name": "במדבר",
+      "start_chapter": 33,
+      "start_verse": 1
+    },
+    {
+      "id": 44,
+      "name": "דברים",
+      "sefer_id": 5,
+      "sefer_name": "דברים",
+      "start_chapter": 1,
+      "start_verse": 1
+    },
+    {
+      "id": 45,
+      "name": "ואתחנן",
+      "sefer_id": 5,
+      "sefer_name": "דברים",
+      "start_chapter": 3,
+      "start_verse": 23
+    },
+    {
+      "id": 46,
+      "name": "עקב",
+      "sefer_id": 5,
+      "sefer_name": "דברים",
+      "start_chapter": 7,
+      "start_verse": 12
+    },
+    {
+      "id": 47,
+      "name": "ראה",
+      "sefer_id": 5,
+      "sefer_name": "דברים",
+      "start_chapter": 11,
+      "start_verse": 26
+    },
+    {
+      "id": 48,
+      "name": "שופטים",
+      "sefer_id": 5,
+      "sefer_name": "דברים",
+      "start_chapter": 16,
+      "start_verse": 18
+    },
+    {
+      "id": 49,
+      "name": "כי תצא",
+      "sefer_id": 5,
+      "sefer_name": "דברים",
+      "start_chapter": 21,
+      "start_verse": 10
+    },
+    {
+      "id": 50,
+      "name": "כי תבוא",
+      "sefer_id": 5,
+      "sefer_name": "דברים",
+      "start_chapter": 26,
+      "start_verse": 1
+    },
+    {
+      "id": 51,
+      "name": "נצבים",
+      "sefer_id": 5,
+      "sefer_name": "דברים",
+      "start_chapter": 29,
+      "start_verse": 9
+    },
+    {
+      "id": 52,
+      "name": "וילך",
+      "sefer_id": 5,
+      "sefer_name": "דברים",
+      "start_chapter": 31,
+      "start_verse": 1
+    },
+    {
+      "id": 53,
+      "name": "האזינו",
+      "sefer_id": 5,
+      "sefer_name": "דברים",
+      "start_chapter": 32,
+      "start_verse": 1
+    },
+    {
+      "id": 54,
+      "name": "וזאת הברכה",
+      "sefer_id": 5,
+      "sefer_name": "דברים",
+      "start_chapter": 33,
+      "start_verse": 1
+    }
+  ],
+  "total_count": 54
+}

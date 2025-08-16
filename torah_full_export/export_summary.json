@@ -1,0 +1,60 @@
+{
+  "export_summary": {
+    "created": "2025-08-16T22:07:02.590683",
+    "source_database": "torah.db",
+    "export_directory": "torah_full_export",
+    "export_types": [
+      "raw_tables",
+      "structured_torah",
+      "parshiot",
+      "search_optimized"
+    ]
+  },
+  "statistics": {
+    "raw_export": {
+      "tables": 9,
+      "records": 40854,
+      "size": 8372667
+    },
+    "structured": {
+      "books": 5,
+      "chapters": 187,
+      "verses": 5830,
+      "questions": 23278,
+      "size": 11712810
+    },
+    "parshiot": {
+      "count": 54,
+      "size": 23455
+    },
+    "search": {
+      "verses": 5830,
+      "questions": 23278,
+      "size": 11075038
+    }
+  },
+  "files_created": {
+    "complete_exports": [
+      "complete/all_tables_raw.json",
+      "complete/parshiot_complete.json",
+      "complete/search_optimized.json"
+    ],
+    "structured_export": [
+      "structured/complete_torah_structured.json"
+    ],
+    "separated_tables": [
+      "separated/tbl_Sefer.json",
+      "separated/tbl_Torah.json",
+      "separated/tbl_Question.json",
+      "separated/tbl_Title.json",
+      "separated/tbl_Parsha.json",
+      "separated/Parshiot.json"
+    ]
+  },
+  "usage_recommendations": {
+    "backup": "השתמש ב-complete/all_tables_raw.json לגיבוי מלא",
+    "development": "השתמש ב-structured/complete_torah_structured.json לפיתוח אתר",
+    "search": "השתמש ב-complete/search_optimized.json לחיפוש מהיר",
+    "analysis": "השתמש בקבצים ב-separated/ לניתוח נתונים"
+  }
+}
